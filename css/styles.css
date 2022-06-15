@@ -1,0 +1,112 @@
+body {
+  background-color: hsl(0, 0%, 95%);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 0.9rem;
+}
+
+.flex {
+  padding: 5.25rem 1.41rem;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  border-radius: 2rem;
+  width: 312px;
+}
+
+.box div {
+  padding: 2.9rem;
+}
+
+.content1 {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.content1 button {
+  color: hsl(31, 77%, 52%);
+}
+
+.content2 {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.content2 button {
+  color: hsl(184, 100%, 22%);
+}
+
+.content3 {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.content3 button {
+  color: hsl(179, 100%, 13%);
+}
+
+h2 {
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  font-size: 2.41rem;
+  text-transform: uppercase;
+  margin: 1.9rem 0 1.9rem 0;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+button {
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 2rem;
+  border: none;
+  padding: 12px 29px;
+}
+
+@media (min-width: 700px) {
+  .flex {
+    padding: 0 0.5rem;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+  }
+  .box {
+    flex-direction: row;
+    width: 875px;
+  }
+  
+  h2 {
+    margin: 1.35rem 0 1.2rem 0;
+  }
+  p {
+    line-height: 1.5;
+    margin-bottom: 3.9rem;
+  }
+}
+
+@media (min-width: 700px) and (max-width:900px) {
+    p {
+        font-size: 0.71rem;
+    }
+}
+
+@media (hover: hover) {
+  .content1 button:hover {
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+    outline: 2px solid hsl(0, 0%, 95%);
+  }
+  .content2 button:hover {
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+    outline: 2px solid hsl(0, 0%, 95%);
+  }
+  .content3 button:hover {
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+    outline: 2px solid hsl(0, 0%, 95%);
+  }
+}
