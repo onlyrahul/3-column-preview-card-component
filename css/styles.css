@@ -14,7 +14,6 @@ body {
   display: flex;
   flex-direction: column;
   margin: auto;
-  border-radius: 2rem;
   width: 312px;
 }
 
@@ -24,6 +23,7 @@ body {
 
 .content1 {
   background-color: hsl(31, 77%, 52%);
+  border-radius: 0.6rem 0.6rem 0 0;
 }
 
 .content1 button {
@@ -40,6 +40,7 @@ body {
 
 .content3 {
   background-color: hsl(179, 100%, 13%);
+  border-radius: 0 0 0.6rem 0.6rem;
 }
 
 .content3 button {
@@ -84,6 +85,12 @@ button {
   p {
     line-height: 1.5;
     margin-bottom: 3.9rem;
+  }
+  .content1 {
+    border-radius: 0.6rem 0 0 0.6rem;
+  }
+  .content3 {
+    border-radius: 0 0.6rem 0.6rem 0;
   }
 }
 
